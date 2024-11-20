@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lucas Zeiger
+title: Lucas B. Zeiger, PhD
 email: l.zeiger@crukscotlandinstitute.ac.uk
-description: Lucas Zeiger, PhD # this means to ignore newlines until "baseurl:"
+description:  # this means to ignore newlines until "baseurl:"
 keywords: "Lucas Zeiger, Computational Biology, Cancer Research, PhD" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lcsbz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,6 +30,8 @@ linkedin: https://www.linkedin.com/in/lucas-zeiger/
 author: Lucas Zeiger
 language: "en-US"
 timezone: "Europe/London" # Set your local timezone
+livereload: true
+
 
 # Build settings
 remote_theme: pages-themes/midnight@v0.2.0
@@ -37,6 +39,10 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap # Generates a sitemap.xml for SEO
+  - jekyll-paginate # Enables pagination for blogs
+  - jekyll-assets # Asset pipeline for CSS, JS, and images
+  - jekyll-archives # Organizes posts by year/month/tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,8 +68,13 @@ navigation:
   - name: "Home"
     link: /
   - name: "About"
-    link: /about/
+    link: /About/
   - name: "Research"
-    link: /research/
+    link: /Research/
   - name: "CV"
-    link: /cv/
+    link: /CV/
+  - name: "Blog"
+    link: /Posts/
+
+paginate: 5
+paginate_path: "/Posts/page:num/"

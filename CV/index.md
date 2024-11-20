@@ -1,7 +1,6 @@
 ---
 layout: page
 title: CV
-permalink: /cv/
 ---
 ## Download CV
 [Download my CV](assets/CV.pdf)
