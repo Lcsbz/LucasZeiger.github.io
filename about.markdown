@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Me
+Write a short bio highlighting your career, interests, and goals.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- **GitHub**: [Your GitHub](https://github.com/your-username)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Include a profile image:
+```html
+<img src="/assets/profile.jpg" alt="Your Name" style="width:200px;">
