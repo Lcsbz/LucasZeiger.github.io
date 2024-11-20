@@ -28,7 +28,7 @@ twitter_username: LBZeiger
 github_username:  Lcsbz
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
