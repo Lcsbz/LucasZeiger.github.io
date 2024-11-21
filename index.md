@@ -5,7 +5,6 @@
 layout: default
 
 ---
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +12,7 @@ layout: default
     <meta name="description" content="The official website of Lucas Zeiger, featuring projects, blog posts, and contact information.">
     <meta name="keywords" content="Lucas Zeiger, personal website, projects, blog, portfolio">
     <meta name="author" content="Lucas Zeiger">
-    <title>Lucas Zeiger - Personal Website</title>
+    <title>Lucas Zeiger</title>
 </head>
 <body>
     <h1>Welcome to Lucas Zeiger's Personal Website</h1>
