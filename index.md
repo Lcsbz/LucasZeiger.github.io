@@ -17,7 +17,6 @@ layout: default
 	<meta property="og:url" content="https://lucaszeiger.github.io">
 	<meta property="og:type" content="website">
 	<meta name="twitter:card" content="summary">
-	<meta name="google-site-verification" content="wLiFc4BnjwflT8UsGmfl8LyjEbq5F12VlTRjOUEjQV8" />
     <title>Lucas Zeiger</title>
 </head>
 <body>
