@@ -12,3 +12,4 @@ layout: default
 <meta name="description" content="The official website of Lucas Zeiger, featuring projects, blog posts, and contact information.">
 <meta name="keywords" content="Lucas Zeiger, personal website, projects, blog, portfolio">
 <meta name="author" content="Lucas Zeiger">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
