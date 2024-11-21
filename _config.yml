@@ -20,7 +20,7 @@
 
 title: Lucas B. Zeiger, PhD
 email: l.zeiger@crukscotlandinstitute.ac.uk
-description:  # this means to ignore newlines until "baseurl:"
+description: CRUK Scotland Institute # this means to ignore newlines until "baseurl:"
 keywords: "Lucas Zeiger, Computational Biology, Cancer Research, PhD" 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lcsbz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
