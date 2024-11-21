@@ -15,7 +15,7 @@ layout: default
     <title>Lucas Zeiger</title>
 </head>
 <body>
-    <h1>Welcome to Lucas Zeiger's Personal Website</h1>
-		<p>Welcome to my personal website. Here you'll find information about my projects, hobbies, and ways to get in touch.</p>
+    <h1>Hi there!</h1>
+		<p>Welcome to my website. Here you'll find information about my work, hobbies, and ways to get in touch.</p>
 </body>
 </html>
