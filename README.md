@@ -1,2 +1,2 @@
-lcsbz.github.io
+LucasZeiger.github.io
 Personal website for Lucas Zeiger
