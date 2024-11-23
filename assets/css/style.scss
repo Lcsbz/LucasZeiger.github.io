@@ -6,3 +6,92 @@
 /* Custom Styles */
 #header nav {background: #00000000 !important; /* Corrected background */
 }
+
+#header {
+    z-index: 100;
+    left: 0;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: url(../images/nav-bg.gif) #353535;
+    border-bottom: 4px solid #434343;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    padding-top: 10px; /* Add padding to the top */
+  }
+  
+  #header nav {
+    max-width: 100%; /* Ensure full width on smaller screens */
+    margin: 0 auto;
+    padding: 0 10px;
+    background: rgba(0, 0, 255, 0);
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center navigation items */
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+    overflow-x: auto; /* Allow horizontal scrolling if the content overflows */
+  }
+  
+  #header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for the list */
+    flex-wrap: nowrap; /* Prevent items from stacking vertically */
+    justify-content: center;
+  }
+  
+  #header nav ul li {
+    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    list-style: none;
+    color: white;
+    line-height: 50px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    margin: 0 10px; /* Add spacing between items */
+    text-align: center;
+    flex: 0 0 auto; /* Prevent items from shrinking or wrapping */
+    display: inline-block; /* Ensure horizontal alignment */
+  }
+  
+  #header nav ul li a {
+    color: white;
+    border: 1px solid #5d910b;
+    background: linear-gradient(#93bd20, #659e10);
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+    padding: 10px 12px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block; /* Ensure links display inline */
+    text-align: center;
+  }
+  
+  #header nav ul li a:hover {
+    background: linear-gradient(#749619, #527f0e);
+    border: 1px solid #527f0e;
+  }
+  
+  @media (max-width: 480px) {
+    #header nav {
+      flex-wrap: nowrap; /* Prevent wrapping */
+      justify-content: flex-start; /* Align items to the start */
+      overflow-x: auto; /* Enable scrolling if items overflow horizontally */
+    }
+  
+    #header nav ul {
+      justify-content: flex-start; /* Align items to the start */
+      flex-wrap: nowrap; /* Ensure horizontal layout */
+    }
+  
+    #header nav ul li {
+      flex: 0 0 auto; /* Prevent items from resizing or wrapping */
+      margin: 0 5px; /* Add smaller spacing between items */
+    }
+  
+    #header nav ul li a {
+      padding: 8px 10px; /* Adjust padding for smaller screens */
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }
+  
