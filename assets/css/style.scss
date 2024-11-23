@@ -10,48 +10,40 @@
 #header {
     z-index: 100;
     left: 0;
-    top: 0px;
-    height: 60px;
+    top: 10px; /* Space from the top of the viewport */
+    height: 60px; /* Header height */
     width: 100%;
     position: fixed;
     background: url(../images/nav-bg.gif) #353535;
     border-bottom: 4px solid #434343;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-    padding-top: 10px; /* Add padding to the top */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 0; /* Remove additional padding */
   }
   
   #header nav {
-    max-width: 100%; /* Ensure full width on smaller screens */
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
-    background: rgba(0, 0, 255, 0);
-    display: flex; /* Flexbox for horizontal alignment */
-    justify-content: center; /* Center navigation items */
-    flex-wrap: nowrap; /* Prevent wrapping to a new line */
-    overflow-x: auto; /* Allow horizontal scrolling if the content overflows */
+    padding: 0;
+    display: flex; /* Flexbox for navigation links */
+    justify-content: center; /* Center links horizontally */
+    align-items: center; /* Center links vertically */
   }
   
   #header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Flexbox for the list */
-    flex-wrap: nowrap; /* Prevent items from stacking vertically */
+    display: flex; /* Ensure links are side-by-side */
+    flex-wrap: nowrap; /* Prevent wrapping */
     justify-content: center;
+    align-items: center;
   }
   
   #header nav ul li {
-    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    list-style: none;
-    color: white;
-    line-height: 50px;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-    font-size: 14px;
-    margin: 0 10px; /* Add spacing between items */
-    text-align: center;
-    flex: 0 0 auto; /* Prevent items from shrinking or wrapping */
-    display: inline-block; /* Ensure horizontal alignment */
+    margin: 0 10px; /* Add spacing between links */
   }
   
   #header nav ul li a {
@@ -62,10 +54,14 @@
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
     padding: 10px 12px;
     line-height: 14px;
-    font-size: 14px;
-    display: inline-block; /* Ensure links display inline */
+    height: 18px; /* Set a consistent height */
+    font-size: 20px;
+    display: inline-flex; /* Flexbox for centering text within links */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
     text-align: center;
   }
+  
   
   #header nav ul li a:hover {
     background: linear-gradient(#749619, #527f0e);
@@ -94,4 +90,5 @@
       font-size: 12px; /* Adjust font size for smaller screens */
     }
   }
+  
   
