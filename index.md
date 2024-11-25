@@ -21,6 +21,6 @@ layout: default
 </head>
 <body>
     <h1>Hi there!</h1>
-		<p>Welcome to my website. Here you'll find information about my work, hobbies, and ways to get in touch.</p>
+		<p>This website is currently under construction. Here you'll find information about my work, hobbies, and ways to get in touch.</p>
 </body>
 </html>
